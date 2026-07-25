@@ -30,7 +30,7 @@ except ImportError:
 
 # --- CONFIG GLOBALE ---
 st.set_page_config(page_title="AGRO-PREDICT V2", page_icon="🌾", layout="wide")
-DOSSIER = "/content/drive/MyDrive/AGRO_PREDICT_V2"
+DOSSIER = os.path.dirname(os.path.abspath(__file__))
 MOIS_FR = ["","Jan","Fév","Mar","Avr","Mai","Jun","Jul","Aoû","Sep","Oct","Nov","Déc"]
 MOIS_NOM = ["","Janvier","Février","Mars","Avril","Mai","Juin","Juillet","Août","Septembre","Octobre","Novembre","Décembre"]
 
