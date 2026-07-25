@@ -1,9 +1,0 @@
-streamlit
-pandas
-numpy
-requests
-plotly
-folium
-streamlit-folium
-streamlit-js-eval
-anthropic
