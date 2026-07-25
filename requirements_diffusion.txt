@@ -1,5 +1,0 @@
-africastalking
-flask
-requests
-pandas
-numpy
